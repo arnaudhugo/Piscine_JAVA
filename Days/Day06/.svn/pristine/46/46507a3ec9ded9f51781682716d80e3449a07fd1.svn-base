@@ -1,0 +1,12 @@
+public class Katana extends Weapon {
+    private int damagePoints;
+    private WeaponType type;
+
+    Katana() {
+    }
+
+    Katana(String name) {
+	super(name);
+	this.type = WeaponType.KATANA;
+    }
+}

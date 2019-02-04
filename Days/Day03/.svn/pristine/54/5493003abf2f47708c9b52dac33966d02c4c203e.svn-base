@@ -1,0 +1,7 @@
+public class Student extends Person {
+    private String[] bookRead;
+
+    public Student(int maxBook) {
+	bookRead = new String[maxBook];
+    }
+}

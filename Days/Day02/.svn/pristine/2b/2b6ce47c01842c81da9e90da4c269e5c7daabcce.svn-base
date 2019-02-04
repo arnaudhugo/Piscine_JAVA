@@ -1,0 +1,14 @@
+public class Specialization {
+    int id;
+    int code;
+    String label;
+
+    public Specialization() {
+    }
+
+    public Specialization(int id, String code, String label) {
+	this.id = id;
+	this.code = code;
+	this.label = label;
+    }
+}

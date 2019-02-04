@@ -1,0 +1,31 @@
+public class Teacher extends Person {
+    Specialization specialization;
+
+    public Teacher() {
+    }
+
+    public Teacher(int id, String firstName, String lastName, String phone, String email, Specialization specialization) {
+	super(id, firstName, lastName, phone, email);
+	this.specialization = specialization;
+    }
+
+    public Specialization getSpecialization() {
+	return(this.specialization);
+    }
+
+    public Specialization setSpecialization(Specialization specialization) {
+	this.specialization = specialization;
+    }
+
+    public String toString() {
+	return("Teacher: " + this.firstName + " " + this.lastName + ". email: " + this.email + ", phone: " + this.phone);
+    }
+    
+    public abstract boolean canGoToClass(Class c) {
+	
+    }
+
+    public void teacherOf(Class[] c) {
+	
+    }
+}

@@ -1,0 +1,27 @@
+public class App {
+    public void printArgs(String[] args) {
+	for (String arg : args) {
+	    System.out.println(arg);
+	}
+    }
+
+    public String[] toUpperCase(String[] args) {
+	int i = 0;
+
+	for (String arg : args) {
+	    args[i] = args[i].toUpperCase();
+	    i++;
+	}
+	return(args);
+    }
+
+    public String[] removeChar(String[] args, char c) {
+	int i = 0;
+
+	for (String arg : args) {
+	    args[i] = arg.replace(c, '\0');
+	    i++;
+	}
+	return(args);
+    }
+}

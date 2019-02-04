@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Player {
+    private List<Item> bag = new ArrayList<Item>();
+
+    public Player() {
+    }
+
+    public Player(List items) {
+	this.bag = items;
+    }
+}
