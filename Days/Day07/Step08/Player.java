@@ -20,8 +20,8 @@ public class Player<T> {
         this.song = t;
     }
 
-    public static Player listenToTheMusic(Music type) {
-	Player n = new Player();
+    public static Player<Music> listenToTheMusic(Music type) {
+	Player<Music> n = new Player();
 	n.setSong(type);
 	return(n);
     }
