@@ -1,0 +1,3 @@
+interface DataBase {
+    void showLogs();
+}
