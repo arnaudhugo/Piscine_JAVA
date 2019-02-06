@@ -1,6 +1,0 @@
-public class Main {
-    public static void main(String[] args) {
-	Fruit cherry = new Fruit("Cherry",50);
-	System.out.println(cherry.getCalories());
-    }
-}
