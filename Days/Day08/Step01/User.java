@@ -28,7 +28,7 @@ public class User {
 	this.age = age;
     }
 
-    public Boolean getActive() {
+    public Boolean isActive() {
 	return(this.active);
     }
 
