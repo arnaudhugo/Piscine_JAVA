@@ -2,11 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductsRetriever {
-    private Amazon amazon = new Amazon();;
-    private CDiscount cdiscount = new CDiscount();
-    private Fnac fnac = new Fnac();
+    private Amazon amazon;
+    private CDiscount cdiscount;
+    private Fnac fnac;
 
     public ProductsRetriever() {
+	amazon = new Amazon();
+	cdiscount = new CDiscount();
+	fnac = new Fnac();
     }
 
     public List<String> getAmazonList() {
