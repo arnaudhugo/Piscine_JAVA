@@ -29,7 +29,7 @@ public class Quiz extends Game {
 
     public boolean play(Key k, String input) {
 	if (canPlay(k)) {
-	    System.out.println("Welcome to the quiz!");
+	    System.out.println("Welcome to the quiz");
 
 	    Scanner scan = new Scanner(input);
 	    scan.useDelimiter(" ");
