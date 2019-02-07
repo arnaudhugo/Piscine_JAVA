@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class MarketPlaceDecorator implements MarketPlace {
-    List<String> itemList = new ArrayList<>();
     protected MarketPlace marketPlace;
 
     public MarketPlaceDecorator() {
